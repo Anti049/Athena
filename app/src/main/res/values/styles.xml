@@ -1,0 +1,58 @@
+<resources>
+    <style name="DraculaPro" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/colorForeground</item>
+        <item name="android:editTextColor">@color/colorForeground</item>
+        <item name="android:textColorPrimary">@color/colorForeground</item>
+        <item name="android:textColorHint">?android:colorAccent</item>
+        <item name="colorError">@color/colorRed</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="android:windowEnterTransition">@transition/slide</item>
+        <item name="android:windowExitTransition">@transition/slide</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">@transition/change_image_transform</item>-->
+    </style>
+
+    <style name="DraculaPro.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">?android:colorPrimary</item>
+        <item name="android:editTextColor">@color/colorForeground</item>
+        <item name="android:textColorPrimary">@color/colorForeground</item>
+        <item name="android:textColorHint">?android:colorAccent</item>
+    </style>
+    <style name="DraculaPro.Base" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundBase</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkBase</item>
+        <item name="colorAccent">@color/colorCommentBase</item>
+        <item name="colorSecondary">@color/colorSelectionBase</item>
+    </style>
+    <style name="DraculaPro.Blade" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundBlade</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkBlade</item>
+        <item name="colorAccent">@color/colorCommentBlade</item>
+        <item name="colorSecondary">@color/colorSelectionBlade</item>
+    </style>
+    <style name="DraculaPro.Buffy" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundBuffy</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkBuffy</item>
+        <item name="colorAccent">@color/colorCommentBuffy</item>
+        <item name="colorSecondary">@color/colorSelectionBuffy</item>
+    </style>
+    <style name="DraculaPro.Lincoln" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundLincoln</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkLincoln</item>
+        <item name="colorAccent">@color/colorCommentLincoln</item>
+        <item name="colorSecondary">@color/colorSelectionLincoln</item>
+    </style>
+    <style name="DraculaPro.Morbius" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundMorbius</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkMorbius</item>
+        <item name="colorAccent">@color/colorCommentMorbius</item>
+        <item name="colorSecondary">@color/colorSelectionMorbius</item>
+    </style>
+    <style name="DraculaPro.VanHelsing" parent="DraculaPro">
+        <item name="colorPrimary">@color/colorBackgroundVanHelsing</item>
+        <item name="colorPrimaryDark">@color/colorBackgroundDarkVanHelsing</item>
+        <item name="colorAccent">@color/colorCommentVanHelsing</item>
+        <item name="colorSecondary">@color/colorSelectionVanHelsing</item>
+    </style>
+
+</resources>

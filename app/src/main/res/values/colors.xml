@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGray">#CCCCCC</color>
+
+    <!-- Dracula PRO - Base -->
+    <color name="colorForeground">#F8F8F2</color>
+    <color name="colorCyan">#80FFEA</color>
+    <color name="colorGreen">#8AFF80</color>
+    <color name="colorOrange">#FFCA80</color>
+    <color name="colorPink">#FF80BF</color>
+    <color name="colorPurple">#9580FF</color>
+    <color name="colorRed">#FF9580</color>
+    <color name="colorYellow">#FFFF80</color>
+    <!-- Dracula PRO - Normal -->
+    <color name="colorBackgroundBase">#22212C</color>
+    <color name="colorBackgroundDarkBase">#151320</color>
+    <color name="colorCommentBase">#7970A9</color>
+    <color name="colorSelectionBase">#454158</color>
+    <!-- Dracula PRO - Blade -->
+    <color name="colorBackgroundBlade">#212C2A</color>
+    <color name="colorBackgroundDarkBlade">#13201E</color>
+    <color name="colorCommentBlade">#70A99F</color>
+    <color name="colorSelectionBlade">#415854</color>
+    <!-- Dracula PRO - Buffy -->
+    <color name="colorBackgroundBuffy">#2A212C</color>
+    <color name="colorBackgroundDarkBuffy">#1E1320</color>
+    <color name="colorCommentBuffy">#9F70A9</color>
+    <color name="colorSelectionBuffy">#544158</color>
+    <!-- Dracula PRO - Lincoln -->
+    <color name="colorBackgroundLincoln">#2C2A21</color>
+    <color name="colorBackgroundDarkLincoln">#201E13</color>
+    <color name="colorCommentLincoln">#A99F70</color>
+    <color name="colorSelectionLincoln">#585441</color>
+    <!-- Dracula PRO - Morbius -->
+    <color name="colorBackgroundMorbius">#2C2122</color>
+    <color name="colorBackgroundDarkMorbius">#201315</color>
+    <color name="colorCommentMorbius">#A97079</color>
+    <color name="colorSelectionMorbius">#584145</color>
+    <!-- Dracula PRO - VanHelsing -->
+    <color name="colorBackgroundVanHelsing">#0B0D0F</color>
+    <color name="colorBackgroundDarkVanHelsing">#131A20</color>
+    <color name="colorCommentVanHelsing">#708CA9</color>
+    <color name="colorSelectionVanHelsing">#414D58</color>
+</resources>

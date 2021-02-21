@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="wrap_content"
+                                                   android:background="?attr/colorPrimary">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/athena_white" android:id="@+id/splashImage"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="?attr/colorAccent" android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp" android:layout_marginTop="16dp"/>
+    <TextView
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/splashTitle"
+            app:layout_constraintTop_toTopOf="@+id/splashImage" app:layout_constraintEnd_toEndOf="@+id/splashImage"
+            android:layout_marginTop="20dp"
+            android:textSize="60sp" android:fontFamily="@font/font_greek" android:textColor="?attr/colorAccent"
+            app:layout_constraintStart_toStartOf="@+id/splashImage"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

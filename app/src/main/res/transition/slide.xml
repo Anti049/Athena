@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" android:transitionOrdering="sequential">
+    <targets>
+        <target android:targetId="@+id/loginEmail"/>
+        <target android:targetId="@+id/loginGoogle"/>
+        <target android:targetId="@+id/loginFacebook"/>
+        <target android:targetId="@+id/loginAnonymous"/>
+        <target android:targetId="@+id/loginOffline"/>
+    </targets>
+    <slide android:slideEdge="bottom" android:duration="500"/>
+</transitionSet>

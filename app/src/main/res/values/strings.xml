@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Athena</string>
+    <!-- Auth -->
+    <string name="login_default">Connect with %s</string>
+    <string name="login_email">Log in with Email</string>
+    <string name="login_google">Connect with Google</string>
+    <string name="login_facebook">Connect with Facebook</string>
+    <string name="login_anonymous">Connect Anonymously</string>
+    <string name="login_offline">Continue without Signing In (Offline)</string>
+    <!-- Browse -->
+    <string name="browse_tabs">View open tabs</string>
+    <string name="browse_new_tab">New tab</string>
+    <string name="browse_history">History</string>
+</resources>
