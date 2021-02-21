@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -95,9 +96,10 @@ public class MainActivity extends AppCompatActivity {
     public void uploadTestDocument(View view) throws IOException {
         FirebaseStorage storage = FirebaseStorage.getInstance();
         StorageReference storageRef = storage.getReference();
-        StorageReference pdfRef = storageRef.child("Take-Out-Menu-SAT-2019.pdf");
-        File localFile = File.createTempFile("/sdcard/Documents/document", "pdf");
-        pdfRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+        StorageReference fanficRef = storageRef.child("fanfic");
+        StorageReference epubRef = fanficRef.child("What We Are Made Of - psytronix.epub");
+        File localFile = new File(getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS), "What We Are Made Of - psytronix.epub");
+        epubRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                 Log.d("STORAGE", "Storage:succeeded");
